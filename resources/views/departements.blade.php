@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.app')
 
-        <title>TM2 - EXO 2</title>
-
-    </head>
-    <body>
-      
-    <table>
+@section('content')
+<table>
     <thead>
         <tr>
             <th>Code</th>
@@ -25,6 +17,4 @@
         @endforeach
     </tbody>
 </table>
-
-    </body>
-</html>
+@endsection
