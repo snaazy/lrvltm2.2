@@ -1,5 +1,18 @@
 @extends('layout.app')
 
+@section('title')
+
+TM2
+
+@endsection
+
+@section('header')
+
+<a class="navbar-brand" href="#">Programmation Web - TM2 : Exercice 2 - FEKIH HASSEN Yassine</a>
+
+
+@endsection
+
 @section('content')
 
 <table class="table">
@@ -18,4 +31,8 @@
         @endforeach
     </tbody>
 </table>
+
 @endsection
+
+
+
