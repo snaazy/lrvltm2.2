@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use  App\Departement;
+use  App\Models\Departement;
 
 class DepartementsController extends Controller
 {
     public function index()
     {
-        $departements = DB::table('departements')->get();
-        return view('departements',['departements' => $departements]);
+        $departements = Departement::all();
+        return view('departements', ['departements' => $departements]);
     }
     
 }
