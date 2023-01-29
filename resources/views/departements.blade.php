@@ -15,7 +15,7 @@ TM2
 
 @section('content')
 
-<table class="table">
+<table class="table table-dark bg-dark">
     <thead>
         <tr>
             <th>No</th>
