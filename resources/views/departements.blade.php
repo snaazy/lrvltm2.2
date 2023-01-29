@@ -1,18 +1,19 @@
 @extends('layout.app')
 
 @section('content')
-<table>
+
+<table class="table">
     <thead>
         <tr>
-            <th>Code</th>
+            <th>No</th>
             <th>Nom</th>
         </tr>
     </thead>
     <tbody>
         @foreach($departements as $departement)
         <tr>
-            <td>{{ $departement->code }}</td>
-            <td>{{ $departement->nom }}</td>
+            <td class="align-middle">{{ $departement->no }}</td>
+            <td class="align-middle">{{ $departement->nom }}</td>
         </tr>
         @endforeach
     </tbody>
