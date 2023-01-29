@@ -13,6 +13,7 @@ class Departement extends Model
     protected $primaryKey = 'no';
     public $timestamps = false;
     protected $fillable = ['no', 'nom'];
+    protected $keyType = 'string';
 
     public function users()
     {
