@@ -10,7 +10,6 @@ TM2
 
 <a class="navbar-brand" href="#">Programmation Web - TM2 : Exercice 2 </a>
 
-
 @endsection
 
 @section('content')

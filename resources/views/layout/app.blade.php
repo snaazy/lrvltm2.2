@@ -10,8 +10,7 @@
     <body>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand d-flex justify-content-center" href="#"> @yield('header') </a>
-</nav>
-
+        </nav>
     </head>
     <body>
         @yield('content')
