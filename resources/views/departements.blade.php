@@ -8,14 +8,14 @@ TM2
 
 @section('header')
 
-<a class="navbar-brand" href="#">Programmation Web - TM2 : Exercice 2 - FEKIH HASSEN Yassine</a>
+<a class="navbar-brand" href="#">Programmation Web - TM2 : Exercice 2 </a>
 
 
 @endsection
 
 @section('content')
 
-<table class="table table-dark bg-dark">
+<table class="table">
     <thead>
         <tr>
             <th>No</th>
