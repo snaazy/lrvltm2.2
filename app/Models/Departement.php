@@ -14,13 +14,5 @@ class Departement extends Model
     public $timestamps = false;
     protected $keyType = 'string';
 
-    public function users()
-    {
-        return $this->hasMany(User::class);
-    }
-
-    public function getNomAttribute($value)
-    {
-        return ucfirst($value);
-    }
+  
 }
